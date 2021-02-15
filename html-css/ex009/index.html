@@ -4,44 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Outras formatações</title>
+    <title>Listas</title>
   </head>
   <body>
-    <h1>Outras Formatações</h1>
-    <h2>Código fonte</h2>
-    <p>
-      O comando <code>document.getElementById('teste')</code> é escrito em
-      linguagem JavaScript
-    </p>
-    <pre>
-        <code>
-            num = int(input('Digite um numero'))
-            if num % 2 == 0:
-                print(f 'O numero {num} é par')
-        
-            else
-                print(f 'O numero {num} é ímpar')
-            print('Fim do programa')
-        </code>
-    </pre>
-    <h2>Citações Simples</h2>
-    <p>
-      Como diria o pai de um amigo: <q>o computador é um burro muito rapido</q>
-    </p>
+    <h1>Trabalhando com Listas</h1>
 
-    <h2>Citações completas</h2>
-    <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
-    <blockquote
-      cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&printsec=frontcover&dq=html&hl=pt-BR&sa=X&ved=2ahUKEwiKiIyF-d3uAhVNKLkGHcmkAhkQ6AEwBXoECAQQAg#v=onepage&q=html&f=false"
-    >
-      A diferença entre elementos inline e um bloco de texto é importante. Os
-      elementos HTML neste capitulo descrevem os blocos de texto.
-    </blockquote>
+    <h2>Listas Ordenadas</h2>
 
-    <h2>Abreviações</h2>
-    <p>
-      Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e
-      <abbr title="Cascading Stylesheets">CSS</abbr>. Estou Curtindo!
-    </p>
+    <ol type="1" start="1">
+      <li>Acordar</li>
+      <li>Tomar café</li>
+      <li>Escovar os dentes</li>
+      <li>Tomar banho</li>
+    </ol>
+
+    <ol type="A" start="1">
+      <li>Acordar</li>
+      <li>Tomar café</li>
+      <li>Escovar os dentes</li>
+      <li>Tomar banho</li>
+    </ol>
+
+    <ol type="I" start="1">
+      <li>Acordar</li>
+      <li>Tomar café</li>
+      <li>Escovar os dentes</li>
+      <li>Tomar banho</li>
+    </ol>
+
+    <h2>Listas não Ordenadas</h2>
+
+    <ul type="disc">
+      <li>Acordar</li>
+      <li>Tomar café</li>
+      <li>Escovar os dentes</li>
+      <li>Tomar banho</li>
+    </ul>
+
+    <ul type="circle">
+      <li>Acordar</li>
+      <li>Tomar café</li>
+      <li>Escovar os dentes</li>
+      <li>Tomar banho</li>
+    </ul>
+
+    <ul type="square">
+      <li>Acordar</li>
+      <li>Tomar café</li>
+      <li>Escovar os dentes</li>
+      <li>Tomar banho</li>
+    </ul>
   </body>
 </html>
